@@ -1,0 +1,27 @@
+Aracaju,27.3,664908,4
+Belem,26.4,1499641,10
+Belo Horizonte,22.5,2521564,852
+Boa Vista,28.1,419652,90
+Brasilia,20.5,3055149,1171
+Campo Grande,24.6,906092,592
+Cuiaba,26.8,618124,125
+Curitiba,20.4,1948626,934
+Florianopolis,24.5,508826,3
+Fortaleza,27.6,2686612,16
+Goiania,23.2,1536097,749
+Joao Pessoa,27.5,817511,40
+Macapa,26.5,512902,14
+Maceio,26.7,1025360,300
+Manaus,26.3,2219580,98
+Natal,27.3,890480,30
+Palmas,24.9,306296,280
+Porto Alegre,24.8,1488252,10
+Porto Velho,26.1,539354,85
+Recife,26.5,1653461,4
+Rio de Janeiro,26.6,6747815,153
+Rio Branco,25.2,413418,2
+Salvador,26.4,2886698,83
+Sao Luis,27.5,1108975,4	
+Sao Paulo,21.5,12325232,760
+Teresina,27.2,868075,72
+Vitoria,25.8,365855,12

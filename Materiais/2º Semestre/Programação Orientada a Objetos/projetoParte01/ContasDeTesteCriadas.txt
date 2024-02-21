@@ -1,0 +1,17 @@
+Contas de Teste já criadas:
+
+---Conta Maior de Idade:
+
+Nome: Paola Rodrigues de Godoy Accioly
+CPF: 0000 
+Idade: 20 
+Nickname: Paola001@UFCA.EDU 
+Senha: paola@ufca
+
+---Conta Menor de Idade:
+
+Nome: Wanderson Faustino Patricio
+CPF: 0001 
+Idade: 12 
+Nickname: Wanderson002@UFCA.EDU 
+Senha: wanderson@ufca
