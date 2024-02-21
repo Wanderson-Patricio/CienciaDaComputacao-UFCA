@@ -1,0 +1,188 @@
+// Declaração da estrutura node
+
+struct node:
+    order     : int
+    n         : int
+    keys      : int[]
+    isLeaf    : boolean
+    childrens : node[]
+end struct
+
+// Declaração de estrutura Tree
+strcut Tree:
+    order : int
+    root  : node
+end strcut
+
+
+// Implementação da remoção
+
+algoritmo deletar(T : Tree, key : int)
+    se T.root = λ ou T.n = 0 então
+        escreva("A árvore está vazia.")
+        retorne
+    fim se
+
+    keyDeleted = delete(T.root, key)
+
+    se T.root.n = 0 entao
+        se T.root.isLeaf entao
+            newRoot <- λ
+        senao
+            newRoot <- T.root.childrens[0]
+        fim se
+
+        T.root <- newRoot
+    fim se
+
+    se keyDeleted = 0 entao
+        escreva("Não foi encontrada a chave na árvore.")
+    fim se
+fim algoritmo
+
+//**********************************//
+
+algoritmo delete(no : node, key : int)
+    index <- 0
+    enquanto index <= no.n e key > no.keys[index] faça
+        index <- index + 1
+    fim enquanto
+
+    se index <= no.n e key = no.keys[index] entao
+
+        se no.isLeaf entao
+            para i de index até no.n - 1 faça
+                no.keys[i] <- no.keys[i+1]
+            fim para
+
+            no.n <- no.n - 1
+            retorne 1
+        
+        senao
+
+            keyToReplace <- findPredecessor(no, index)
+            no.keys[index] <- keyToReplace
+            retorne delete(no.childrens[i], keyToReplace)
+        
+        fim se
+
+    senao 
+        se no.isLeaf entao
+            retorne 0
+        senao
+            keyDeleted <- delete(no.childrens[index], key)
+
+            se no.childrens[index].n < n.order entao
+                handleDeficientChild(no, index)
+            fim se
+
+            retorne keyDeleted
+        fim se
+    fim se
+
+fim algoritmo
+
+//**********************************//
+
+algoritmo findPredecessor(no : node, index : int)
+    atual <- no.childrens[index]
+
+    enquanto atual.isLeaf == 0 faça
+        atual <- atual.childrens[atual.n + 1]
+    fim enquanto
+
+    retorne atual.keys[atual.n]
+fim algoritmo
+
+//**********************************//
+
+algoritmo handleDeficientChild(parent : node, childIndex : int)
+
+    se childIndex > 1 e parent.childrens[childIndex - 1].n > n.order entao
+        borrowFromLeftSibling(parent, childIndex)
+    senao
+        se childIndex <= parent.n e parent.childrens[childIndex + 1].n > n.order entao
+            borrowFromRightSibling(parent, childIndex)
+        senao
+            mergeWithSibling(parent, childIndex)
+        fim se
+    fim se
+
+fim algoritmo
+
+//**********************************//
+
+algoritmo borrowFromLeftSibling(parent : node, childIndex : int)
+    child <- parent.childrens[childIndex]
+    sibling <- parent.childrens[childIndex - 1]
+
+    insereOrdenado(child, parent.keys[childIndex])
+    parent.keys[childIndex - 1] <- sibling.keys[sibling.n]
+    sibling.n <- sibling.n -1
+fim algoritmo
+
+//**********************************//
+
+algoritmo borrowFromRightSibling(parent : node, childIndex : int)
+    child <- parent.childrens[childIndex]
+    sibling <- parent.childrens[childIndex + 1]
+
+    insereOrdenado(child, parent.keys[childIndex + 1])
+    parent.keys[childIndex + 1] = sibling.keys[1]
+
+    para i de 1 até sibling.n - 1 faça
+        sibling.keys[i] <- sibling.keys[i+1]
+    fim para
+
+    sibling.n <- sibling.n -1
+fim algoritmo
+
+//**********************************//
+
+algoritmo mergeWithSibling(parent : node, childIndex : int)
+    child <- parent.childrens[childIndex]
+
+    se childIndex = 1 entao
+
+        sibling <- parent.childrens[2]
+
+        child.keys[child.n + 1] <- parent.keys[1]
+        child.n <- child.n + 1
+
+        para i de 1 até sibling.n - 1 faça
+            child.keys[child.n + 1] <- sibling.keys[i]
+            child.n <- child.n + 1
+        fim para
+
+        parent.keys[1] <- sibling.keys[sibling.n]
+
+        para i de 2 até parent.n faça
+            parent.keys[i] <- parent.keys[i+1]
+            parent.childrens[i] <- parent.childrens[i+1]
+        fim para
+
+        parent.n <- parent.n - 1
+
+    senao
+
+        sibling <- parent.childrens[childIndex - 1]
+        sibling.keys[sibling.n + 1] <- parent.keys[childIndex - 1]
+
+        sibling.n <- sibling.n + 1
+
+        para i de 1 até child child.n faça
+            sibling.keys[sibling.n + 1] <- child.keys[i]
+            sibling.n <- sibling.n + 1
+        fim para
+
+        parent.keys[childIndex - 1] <- child.keys[child.n]
+
+        para i de childIndex - 1 até parent.n - 1 faça
+            parent.keys[i] <- parent.keys[i+1]
+            parent.childrens[i+1] = parent.childrens[i+2]
+        fim para
+
+        parent.n <- parent.n - 1
+
+    fim se 
+fim algoritmo
