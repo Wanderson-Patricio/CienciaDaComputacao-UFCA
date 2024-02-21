@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1688388306 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\1º semestre\introdução à programação\c\matemática\prime_detector\main.c
+	<stdio.h>
+	"header.h"
+
+1688388295 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\1º semestre\introdução à programação\c\matemática\prime_detector\header.c
+	<stdio.h>
+	<math.h>
+	"header.h"
+
+1688388394 c:\users\wanderson patricio\documents\materiais - faculdade\listas\1º semestre\introdução à programação\c\matemática\prime_detector\header.h
+
