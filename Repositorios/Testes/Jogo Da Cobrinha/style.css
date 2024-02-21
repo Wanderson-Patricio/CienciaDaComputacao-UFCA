@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+body {
+    font: 10pt Lumanosimo;
+    text-align: center;
+}
+
+
+span {
+    font-weight: 600;
+    font-size: large;
+}
