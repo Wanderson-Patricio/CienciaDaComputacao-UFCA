@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1684331119 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadateste\lista encadeada teste\cabecalho.c
+	<stdio.h>
+	<stdlib.h>
+	"cabecalho.h"
+
+1684330771 c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadateste\lista encadeada teste\cabecalho.h
+
+1684331134 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadateste\lista encadeada teste\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"cabecalho.h"
+

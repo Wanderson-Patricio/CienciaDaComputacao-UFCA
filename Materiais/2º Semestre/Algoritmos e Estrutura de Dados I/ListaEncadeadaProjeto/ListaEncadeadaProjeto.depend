@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1685911369 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadaprojeto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+	"cabecalho.h"
+
+1685908751 c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadaprojeto\cabecalho.h
+
+1686222036 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\listaencadeadaprojeto\cabecalho.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cabecalho.h"
+

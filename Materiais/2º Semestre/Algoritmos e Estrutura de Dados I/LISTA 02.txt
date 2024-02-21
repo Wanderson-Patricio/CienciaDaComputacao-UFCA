@@ -1,0 +1,81 @@
+Lista 02 – Algoritmos e Estruturas de dados – Wanderson Faustino Patricio
+
+Questão 06:
+
+Inserção_ordenada( L, novo)
+    se n < MAX_SIZE
+        index = 0
+        se L[n].chave < novo.chave
+	index := n
+        senão
+	para i:=1,...,n faça
+	    se L[i].chave == novo.chave
+	        pare
+	    senão
+	        se L[i].chave > novo.chave
+	            index :=i
+	            pare
+        
+        se index != 0
+	se index < n
+	    para i := index,...,n-1 faça
+	        L[i+1] := L[i]
+	
+	L[index] := novo
+	n := n+1
+        senão
+	escreva "O elemento já está na lista"
+
+    senão
+        escreva "A Lista está cheia"
+
+
+remoção_ordenada(L, data)
+    se n > 0
+        index = 0
+	para i := 1,...,n faça
+	    se L[i].chave == data
+	        index := i
+	        pare
+
+        se index != 0
+	se index < n
+	    para i := index, ... , n-1 faça
+	        L[i] := L[i+1]
+	
+	n := n-1
+        senão
+	escreva "O elemento não está na lista"
+
+    senão
+        escreva "A lista está vazia"
+
+
+
+Questão 09
+
+isOrdenado( L )
+    /* A variável ordem diz se está em ordem crescente (1), decrescente (-1) ou todos os elementos são iguais (0)
+    ordem :=0
+    para i:=1, ... , n-1 faça
+        se L[i].chave != L[i+1].chave
+	se L[i].chave > L[i+1].chave
+	    ordem := -1
+	senão
+	    ordem := 1
+	
+	pare
+
+    /* A variável ordenado diz se o vetor está ordenado (0) ou não (1)
+    ordenado = 1
+    para i := 1, ... , n-1 faça
+        se (L[i+1].chave - L[i].chave)*ordem < 0
+	ordenado = 0
+
+    retorne ordenado
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1680440092 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\lista sequencial de contas\listaconta.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaConta.h"
+
+1680439610 c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\lista sequencial de contas\listaconta.h
+
+1680440114 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\lista sequencial de contas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<time.h>
+	"ListaConta.h"
+

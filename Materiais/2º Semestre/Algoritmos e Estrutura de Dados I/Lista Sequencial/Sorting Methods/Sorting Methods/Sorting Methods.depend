@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1683288014 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\sorting methods\sorting methods\main.c
+	<stdlib.h>
+	<stdio.h>
+	<locale.h>
+	"sorters.h"
+
+1683288312 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\sorting methods\sorting methods\sorters.c
+	<stdlib.h>
+	<stdio.h>
+	"sorters.h"
+	<time.h>
+
+1682940098 c:\users\wanderson patricio\documents\materiais - faculdade\listas\2º semestre\algoritmos e estrutura de dados i\lista sequencial\sorting methods\sorting methods\sorters.h
+
