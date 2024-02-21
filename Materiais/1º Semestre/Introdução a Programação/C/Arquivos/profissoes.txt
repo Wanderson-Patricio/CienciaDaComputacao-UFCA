@@ -1,0 +1,9 @@
+Nome		Idade	Profiss√£o
+
+Wanderson	20	Estudante
+Neide		46	Faxineira
+Marcio		43	Pedreiro
+Eduardo		24	Avulso
+Thayna		20	ACMS
+
+Essas s„o as profissıes.
