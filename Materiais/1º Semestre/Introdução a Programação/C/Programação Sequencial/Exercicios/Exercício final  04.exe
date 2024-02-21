@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <locale.h>
+int main() {
+	setlocale(LC_ALL, "Portuguese");
+	int a, b, resultado;
+	printf("Quanto é o seu salário atual?");
+	scanf("R$%.2f", &a);
+	printf("Qual será a porcentagem de aumento?");
+	scanf("%.2f %", &b);
+	resultado = a*(1+b/10);
+	printf("O seu salário após o aumento será: R$.2f \n", (float) resultado);
+	return 0;
+}
