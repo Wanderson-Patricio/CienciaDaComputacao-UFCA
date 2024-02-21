@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1697209046 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\3º semestre\laboratorio de programação\projeto01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"functions.h"
+
+1697205696 c:\users\wanderson patricio\documents\materiais - faculdade\listas\3º semestre\laboratorio de programação\projeto01\functions.h
+
+1697205325 source:c:\users\wanderson patricio\documents\materiais - faculdade\listas\3º semestre\laboratorio de programação\projeto01\functions.c
+	<stdio.h>
+	<stdlib.h>
+	"functions.h"
+

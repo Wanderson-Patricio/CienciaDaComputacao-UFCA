@@ -1,0 +1,68 @@
+vetores de tamanho 10:
+
+1  ::: Original: 0,000 s --- GPT: 0,000 s
+2  ::: Original: 0,000 s --- GPT: 0,000 s
+3  ::: Original: 0,000 s --- GPT: 0,000 s
+4  ::: Original: 0,000 s --- GPT: 0,000 s
+5  ::: Original: 0,000 s --- GPT: 0,000 s
+6  ::: Original: 0,000 s --- GPT: 0,000 s
+7  ::: Original: 0,000 s --- GPT: 0,000 s
+8  ::: Original: 0,000 s --- GPT: 0,000 s
+9  ::: Original: 0,000 s --- GPT: 0,000 s
+10 ::: Original: 0,000 s --- GPT: 0,000 s
+
+
+vetores de tamanho 100:
+
+1  ::: Original: 0,000 s --- GPT: 0,000 s
+2  ::: Original: 0,000 s --- GPT: 0,000 s
+3  ::: Original: 0,001 s --- GPT: 0,000 s
+4  ::: Original: 0,000 s --- GPT: 0,000 s
+5  ::: Original: 0,000 s --- GPT: 0,000 s
+6  ::: Original: 0,000 s --- GPT: 0,000 s
+7  ::: Original: 0,000 s --- GPT: 0,000 s
+8  ::: Original: 0,000 s --- GPT: 0,000 s
+9  ::: Original: 0,000 s --- GPT: 0,000 s
+10 ::: Original: 0,001 s --- GPT: 0,000 s
+
+
+vetores de tamanho 1000:
+
+1  ::: Original: 0,003 s --- GPT: 0,002 s
+2  ::: Original: 0,004 s --- GPT: 0,002 s
+3  ::: Original: 0,003 s --- GPT: 0,002 s
+4  ::: Original: 0,003 s --- GPT: 0,002 s
+5  ::: Original: 0,004 s --- GPT: 0,002 s
+6  ::: Original: 0,003 s --- GPT: 0,002 s
+7  ::: Original: 0,003 s --- GPT: 0,002 s
+8  ::: Original: 0,003 s --- GPT: 0,002 s
+9  ::: Original: 0,003 s --- GPT: 0,003 s
+10 ::: Original: 0,003 s --- GPT: 0,002 s
+
+
+vetores de tamanho 10000:
+
+1  ::: Original: 0,335 s --- GPT: 0,193 s
+2  ::: Original: 0,339 s --- GPT: 0,196 s
+3  ::: Original: 0,340 s --- GPT: 0,196 s
+4  ::: Original: 0,338 s --- GPT: 0,193 s
+5  ::: Original: 0,339 s --- GPT: 0,196 s
+6  ::: Original: 0,341 s --- GPT: 0,195 s
+7  ::: Original: 0,343 s --- GPT: 0,198 s
+8  ::: Original: 0,334 s --- GPT: 0,193 s
+9  ::: Original: 0,341 s --- GPT: 0,197 s
+10 ::: Original: 0,336 s --- GPT: 0,192 s
+
+
+vetores de tamanho 100000:
+
+1  ::: Original: 33,835 s --- GPT: 19,446 s
+2  ::: Original: 33,768 s --- GPT: 19,395 s
+3  ::: Original: 33,875 s --- GPT: 19,480 s
+4  ::: Original: 33,706 s --- GPT: 19,360 s
+5  ::: Original: 33,887 s --- GPT: 19,441 s
+6  ::: Original: 33,653 s --- GPT: 19,359 s
+7  ::: Original: 33,878 s --- GPT: 19,473 s
+8  ::: Original: 33,848 s --- GPT: 19,439 s
+9  ::: Original: 33,697 s --- GPT: 19,379 s
+10 ::: Original: 33,776 s --- GPT: 19,403 s
